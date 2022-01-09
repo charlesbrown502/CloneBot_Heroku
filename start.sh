@@ -1,6 +1,6 @@
 if [[ -n $ACCOUNTS_ZIP_URL ]]; then
         echo "accounts.zip detected" 
-	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/file_pah
+	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/gclone_path
 fi
 
 echo "[General]
