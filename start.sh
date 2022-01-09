@@ -1,6 +1,6 @@
 if [[ -n $ACCOUNTS_ZIP_URL ]]; then
         echo "accounts.zip detected" 
-	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/zip_path
+	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/file_pah
 fi
 
 echo "[General]
