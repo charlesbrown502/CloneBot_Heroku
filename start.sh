@@ -1,3 +1,7 @@
+if [[ -n $ACCOUNTS_ZIP_URL ]]; then
+	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/zip_path
+fi
+
 echo "[General]
 path_to_gclone = ./gclone
 telegram_token = $telegram_token
