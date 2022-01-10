@@ -46,7 +46,7 @@ Note : there are hidden features, check at the source code of the bot to find th
  [🎬 Click me for the video tutorial](https://drive.google.com/file/d/1HniSEGUOptbZmHVXuOPULnzpyBBhgw3l/view?usp=sharing)
  
 1. Click on the button below :
-<p><a href="heroku.com/deploy?template=https://github.com/charlesbrown502/CloneBot_Heroku/tree/personal"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" alt="Deploy to Heroku" /></a></p>
+<p><a href="https://www.heroku.com/deploy?template=https://github.com/charlesbrown502/CloneBot_Heroku/tree/personal"> <img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" alt="Deploy to Heroku" /></a></p>
 
 
 2. Fill the following values : 
