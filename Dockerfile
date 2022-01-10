@@ -6,7 +6,7 @@ RUN apt-get -qq update && \
     apt-get -qq install -y --no-install-recommends \
     git python3 python3-pip \
     locales python3-lxml aria2 \
-    curl wget pv jq nginx npm && \
+    curl pv jq nginx npm && \
     apt-get -qq purge git && \
     locale-gen en_US.UTF-8 \
     && apt-get -qq -y autoremove --purge \
