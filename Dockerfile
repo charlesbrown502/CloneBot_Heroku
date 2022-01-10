@@ -8,10 +8,7 @@ RUN apt-get -qq update && \
     curl -fsSLO https://raw.githubusercontent.com/MsGsuite/CloneBot_Heroku/main/requirements.txt && \
     pip3 install --no-cache-dir -r requirements.txt && \
     rm requirements.txt && \
-    apt-get -qq purge git && \
-    apt-get -qq -y autoremove --purge && \
-    apt-get -qq -y clean && \
-    rm -rf -- /var/lib/apt/lists/* /var/cache/apt/archives/*
+    apt-get -y purge git && apt-get -y autoremove && rm -rf /var/lib/apt/lists/* && apt-get clean
 
 ENV LANG en_US.UTF-8
 ENV LANGUAGE en_US:en
