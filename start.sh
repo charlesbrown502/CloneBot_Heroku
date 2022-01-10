@@ -1,8 +1,3 @@
-if [[ -n $ACCOUNTS_ZIP_URL ]]; then
-        echo "accounts.zip detected" 
-	wget -q $ACCOUNTS_ZIP_URL -O /usr/src/app/gclone_path
-fi
-
 echo "[General]
 path_to_gclone = ./gclone
 telegram_token = $telegram_token
