@@ -2,14 +2,13 @@ FROM ubuntu:18.04
 
 RUN apt-get -qq update && \
     apt-get -qq install -y --no-install-recommends \
-    git python3 python3-pip \
-    locales python3-lxml aria2 \
-    curl pv jq nginx npm && \
-    apt-get -qq purge git && \
+    git locales python3-lxml python3 python3-pip \
+    aria2 curl pv jq nginx npm && \
     locale-gen en_US.UTF-8 && \
     curl -fsSLO https://raw.githubusercontent.com/MsGsuite/CloneBot_Heroku/main/requirements.txt && \
     pip3 install --no-cache-dir -r requirements.txt && \
     rm requirements.txt && \
+    apt-get -qq purge git && \
     apt-get -qq -y autoremove --purge && \
     apt-get -qq -y clean && \
     rm -rf -- /var/lib/apt/lists/* /var/cache/apt/archives/*
