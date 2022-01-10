@@ -23,4 +23,4 @@ COPY . .
 RUN chmod 777 /usr/src/app && \
     chmod +x start.sh gclone
 
-CMD ["bash","start.sh"]
+CMD ["bash", "start.sh"]
